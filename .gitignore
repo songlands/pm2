@@ -30,3 +30,30 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# PM2 specific
+# Compiled binaries
+pm2
+pm2-runtime
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Process and cluster state files (stored in temp directory, but just in case)
+processes.json
+clusters.json
+
+# Backup files
+*.bak
+*.backup
+*~

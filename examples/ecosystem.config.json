@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "go-server",
+      "script": "go",
+      "args": ["run", "go-server.go"],
+      "instances": 1
+    },
+    {
+      "name": "node-server",
+      "script": "node",
+      "args": ["node-server.js"],
+      "instances": 1
+    }
+  ]
+}
